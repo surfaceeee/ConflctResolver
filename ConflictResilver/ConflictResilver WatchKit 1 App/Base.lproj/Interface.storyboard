@@ -8,8 +8,21 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ConflictResilver_WatchKit_1_App" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ConflictResilver_WatchKit_1_App" customModuleProvider="target">
+                    <items>
+                        <imageView width="136" alignment="center" image="action2" id="DSD-6m-4j7"/>
+                        <button width="1" alignment="left" title="出拳" id="2YC-js-lGA">
+                            <connections>
+                                <action selector="playTapped" destination="AgC-eL-Hgc" id="LQd-RH-mWh"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="actionImage" destination="DSD-6m-4j7" id="chk-HR-l2o"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="463" y="406.5"/>
         </scene>
     </scenes>
 </document>

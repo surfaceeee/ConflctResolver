@@ -91,12 +91,17 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class WKInterfaceImage;
 
 SWIFT_CLASS("_TtC37ConflictResilver_WatchKit_1_Extension19InterfaceController")
 @interface InterfaceController : WKInterfaceController
+@property (nonatomic, strong) IBOutlet WKInterfaceImage * __null_unspecified actionImage;
+- (IBAction)playTapped;
 - (void)awakeWithContext:(id __nullable)context;
 - (void)willActivate;
 - (void)didDeactivate;
+- (NSUInteger)rand:(NSUInteger)min max:(NSUInteger)max;
+- (void)delay:(double)delay closure:(void (^ __nonnull)(void))closure;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
