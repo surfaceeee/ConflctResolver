@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "cae416c422eeaa3505e6b4e21084ba84"
-build_time: [509466393, 874435000]
+build_time: [509470300, 324649000]
 inputs:
+  "/Users/mc110/Documents/Git/MyDemo/Mooc/ConflictResolver/ConflictResilver/ConflictResilver/ViewController.swift": [509470300, 0]
   "/Users/mc110/Documents/Git/MyDemo/Mooc/ConflictResolver/ConflictResilver/ConflictResilver/AppDelegate.swift": [509466363, 0]
-  "/Users/mc110/Documents/Git/MyDemo/Mooc/ConflictResolver/ConflictResilver/ConflictResilver/ViewController.swift": [509466363, 0]
